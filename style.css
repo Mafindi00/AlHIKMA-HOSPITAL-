@@ -1,0 +1,46 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: darkgreen;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 50px;
+    text-align: center;
+    background: lightgray;
+}
+
+footer {
+    background: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+input, textarea, button {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+}
+button {
+    background: darkgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.8;
+}
